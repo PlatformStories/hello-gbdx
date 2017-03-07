@@ -85,7 +85,7 @@ docker build -t hello-gbdx .
 Create a container in interactive mode and mount the sample input under `/mnt/work/input/`:
 
 ```bash
-docker run -v full/path/to/sample-input:/mnt/work/input -it hello-gbdx
+docker run --rm -v full/path/to/sample-input:/mnt/work/input -it hello-gbdx
 ```
 
 Then, within the container:
