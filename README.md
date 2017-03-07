@@ -118,7 +118,7 @@ In a Python terminal:
 ```python
 from gbdxtools import Interface
 gbdx=Interface()
-gbdx.task_registry.register(json_filename="hello-gbdx.json")
+gbdx.task_registry.register(json_filename="hello-gbdx-definition.json")
 ```
 
 Note: If you change the task image, you need to reregister the task with a higher version number in order for the new image to take effect. Keep this in mind especially if you use Docker automated build.
