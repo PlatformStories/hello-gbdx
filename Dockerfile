@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:xenial
 
 # install python packages
 RUN apt-get update && apt-get -y install\
