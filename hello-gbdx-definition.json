@@ -3,7 +3,7 @@
     "version": "0.0.3",
     "description": "Writes list of the input file names and a user defined message to output file out.txt.",
     "properties": {
-        "isPublic": true,
+        "isPublic": false,
         "timeout": 7200
     },
     "inputPortDescriptors": [
