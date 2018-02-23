@@ -1,6 +1,7 @@
 {
     "name": "hello-gbdx",
     "version": "0.0.3",
+    "taskOwnerEmail": "kostas.stamatiou@digitalglobe.com",
     "description": "Writes list of the input file names and a user defined message to output file out.txt.",
     "properties": {
         "isPublic": false,
